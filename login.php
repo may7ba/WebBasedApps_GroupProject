@@ -118,7 +118,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 	
  //_END;     
 	
-			header("Location:1.php");//this will make sure that on login the user is moved to viewbook.php page.
+			header("Location:1.php");//this will make sure that on login the user is moved to 1.php page.
 			
 		}else{
 			exit();
